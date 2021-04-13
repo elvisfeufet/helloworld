@@ -32,7 +32,7 @@ pipeline {
             }
         }
     }
-}
+
 post {
         always {
             echo "Always display this message "
@@ -47,6 +47,6 @@ post {
             echo "The job is unstable "
         }
     } 
-
+}
 
 
